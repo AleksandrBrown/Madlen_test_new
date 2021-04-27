@@ -205,7 +205,7 @@ function create_item(item) {
             <div class="catalog-item">
                 <div class="catalog-item__name"><p>${item.name}</p></div>
                 <div class="catalog-item__btns">
-                    <button class="catalog-item__btns__addtofavorite"><img src="../assets/img/icons/addtofavorite.svg" ></button>
+                    <button class="catalog-item__btns__addtofavorite"><img src="./assets/img/icons/addtofavorite.svg" ></button>
                     <button class="catalog-item__btns__addtocart" data-id="${item.id}">+</button>
                 </div>
             </div>
@@ -370,19 +370,19 @@ cart_count_mobile.innerText = count
 const mobLogoBtn = document.querySelector('.mobile-header__logo')
 const exArr = [ // пример для ссылок в нач экране
     {
-        image: '../assets/img/item-imgs/10799296-1.svg',
+        image: './assets/img/item-imgs/10799296-1.svg',
         title: 'Рубашки'
     },
     {
-        image: '../assets/img/item-imgs/10799296-1.svg',
+        image: './assets/img/item-imgs/10799296-1.svg',
         title: 'Водолазки'
     },
     {
-        image: '../assets/img/item-imgs/10799296-1.svg',
+        image: './assets/img/item-imgs/10799296-1.svg',
         title: 'Костюмы'
     },
     {
-        image: '../assets/img/item-imgs/10799296-1.svg',
+        image: './assets/img/item-imgs/10799296-1.svg',
         title: 'Боди'
     }
 ]
